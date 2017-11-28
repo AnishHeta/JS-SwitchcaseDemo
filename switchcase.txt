@@ -1,0 +1,36 @@
+var n = prompt("which is your district ?");
+switch(n){
+case "coimbatore":
+      alert("You are from TN");
+      break;
+case "Mandya"
+      alert("You are from Karnataka");
+      break;
+case "bhopal":
+      alert("You are from MP");
+      break;
+case "cochi":
+      alert("You are from Kerala");
+      break;
+case "vijayawada":
+      alert("You are from AP");
+      break;
+case "Hyderabad":
+      alert("You are from Telugana ");
+      break;
+case "ranchi":
+      alert("You are from Jharkhand");
+      break;
+case "varanasi":
+      alert("You are from UP");
+      break;
+case "guwahati":
+      alert("You are from Assam");
+      break;
+case "kolkata":
+      alert("You are from WB");
+      break;
+      default:
+      alert("Please enter valid Detail");
+      break;
+}
